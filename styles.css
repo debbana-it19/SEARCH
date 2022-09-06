@@ -1,0 +1,139 @@
+.head{
+    background-color: whitesmoke;
+
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#main{
+    margin-top: 150px;
+}
+
+body{
+    background-color:whitesmoke;    
+}
+
+.my-div {
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    
+    color: black;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.my-div:hover{
+    box-shadow: inset 900px 0 0 0 #DDDDDD;
+
+}
+
+.my-div > a {
+    color: purple;
+    font-size: 25px;
+    /* padding-bottom: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inp{
+        padding: 11px;
+        width: 60%;
+        font-size: 18px;
+        border-width: 0px;
+        border-color: #CCCCCC;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-style: solid;
+        border-radius: 50px;
+        box-shadow: 2px 0px 11px rgba(66,66,66,.57);
+        text-shadow: -50px 0px 0px rgba(66,66,66,.0);
+        position: relative;
+        bottom:20px;
+        left: 130px;      
+}
+
+.clg-logo{
+    top: 1rem;
+    position: relative;
+    left: 5rem;
+}
+
+.search-icon{
+    position: relative;
+    bottom: 0.5rem;
+    left:10rem;
+    
+}
+
+
+
+.cloud{
+    position: absolute;
+    right: 8rem;
+    top:1.8rem;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn{
+    position: absolute;
+    right: 12rem;
+    top:2rem;
+
+    border: none;
+    
+    
+}
+
+#myBtn:hover{
+    background-color:#EFEAD8;
+}
+
+
+.menu{
+    height: 35px;
+    width: 35px;
+}
